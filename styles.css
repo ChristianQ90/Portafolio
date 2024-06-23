@@ -11,14 +11,14 @@ h1{
 }
 p{
     color: white;
-    text-indent: 15px; 
-    margin: 15px; 
+    text-indent: 6%; 
+    margin: 6%; 
     font-family: sans-serif;
     font-size: 16;
 
 }
 h2, p {
-    margin: 5px;
+    margin: 2%;
     color: white;
     font-family:sans-serif;
     
@@ -30,7 +30,7 @@ h2, p {
 .imagenInicial {
     position: relative;
     width: 100%;
-    max-width: 1700px;
+    max-width: 100%;
     margin: 0 auto;
 }
 .presentacion{
@@ -47,8 +47,8 @@ h2, p {
 .contenedor{
     margin: 0 auto;
     margin-top: 5px;
-    width: 1120px;
-    height: 250px;
+    width: 72%;
+    height: auto;
     
 }
 .contenedorFoto{
@@ -58,69 +58,69 @@ h2, p {
     border-radius: 10px;
     margin-top: 10px;
     float: left;
-    width: 200px;
-    height: 200px;
-    box-shadow: 0 0 10px rgb(46, 240, 247);
+    width: 17.7%;
+    height: auto;
+    box-shadow: 0 0 15px rgb(46, 240, 247);
 }
 .sobreMi{
     border-style: solid;
     border-color:white;
     border-width: 1px;
     border-radius: 10px;
-    margin-top: 10px;
-    margin-left: 10px ;
+    margin-top: 0.7%;
+    margin-bottom: 10px;
     float: right;
-    width: 900px;
-    height: 200px;
+    width: 80%;
+    height: 27%;
     text-align: center;
-    box-shadow: 0 0 10px rgb(46, 240, 247);
+    box-shadow: 0 0 15px rgb(46, 240, 247);
 }
 
 .educacion{
     float: left;
     width: 30%;
-    height: 600px;
+    height: 80%;
     background-color: white;
-    margin-top: 10px;
+    margin-top: 0.7%;
     margin-left: 20%;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgb(46, 240, 247);
+    box-shadow: 0 0 15px rgb(46, 240, 247);
 
 }
 .experiencia{
     float: left;
     width: 30%;
-    height: 600px;
+    height: 80%;
     background-color: white;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 0.7%;
+    margin-left: 1%;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgb(46, 240, 247);
+    box-shadow: 0 0 15px rgb(46, 240, 247);
     
 }
 
 .tecnologias{
     float: left;
     width: 100%;
-    height: 200px;
-    margin-top: 40px;
+    height: auto;
+    margin-top: 2.5%;
     text-align: center;
 }
 .aprendiendo{
     float: left;
     width: 100%;
-    height: 200px;
+    height: auto;
     text-align: center;
 }
 p.textoOscuro{
     color: rgba(0, 0, 0, 0.8);
-    text-indent: 20px; 
-    font-size: 16px;
-    margin: 15px; 
+    text-indent: 5%; 
+    font-size: 16;
+    margin: 3.5%; 
 }
 .tecnologias img {
     border-radius: 10px;
-    margin: 3px;
+    margin: 0.2%;
     transition: transform 0.8s; 
 }
 .tecnologias img:hover {
@@ -129,7 +129,7 @@ p.textoOscuro{
 }
 .aprendiendo img {
     border-radius: 10px;
-    margin: 3px;
+    margin: 0.2%;
     transition: transform 0.8s; 
 }
 .aprendiendo img:hover {
@@ -153,42 +153,42 @@ p.textoOscuro{
 .proyectos{
     float: left;
     width: 100%;
-    height: 800px;
-    margin-top: 40px;
+    height: 105%;
+    margin-top: 2.5%;
     text-align: center;
 }
 .imagenProyecto{
-    width: 260px;
-    height: 500px;
+    width: 16.6%;
+    height: 63%;
     border-color: white;
     border-radius: 10px;
     border-style: solid;
     border-width: 1px;
-    margin: 10px;
+    margin: 0.6%;
     cursor: pointer;
     float: left;
 }
 .descripcionProyecto{
-    width: 260px;
-    height: 130px;
+    width: 16.6%;
+    height: 16%;
     border-color: white;
     border-radius: 10px;
     border-style: solid;
     border-width: 1px;
-    margin: 10px;
+    margin: 0.6%;
     float: left;
     
 }
 .java{
     margin-right: 100%;
-    margin-top: 5px;
-    margin-left: 5px;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
     display: inline-block;
     background-color: transparent;
     color: orange;
     border: solid;
-    width: 50px;
-    height: 20px;
+    width: 19%;
+    height: 16%;
     border-radius: 20px;
     border-color: orange;
     border-width: 1px;
@@ -205,16 +205,16 @@ p.textoOscuro{
     display: flex;
     background-color: #ffffff;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgb(46, 240, 247);
+    box-shadow: 0 0 15px rgb(46, 240, 247);
     overflow: hidden;
-    max-width: 900px;
+    max-width: 61%;
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 40px;
+    margin-bottom: 4%;
 }
 
 .contact-form {
-    padding: 20px;
+    padding: 2.2%;
     flex: 2;
 }
 
@@ -226,19 +226,19 @@ fieldset {
 
 legend {
     font-size: 1.5em;
-    margin-bottom: 10px;
+    margin-bottom: 2.5%;
 }
 
 .form-group {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 15px;
+    margin-bottom: 3%;
 }
 
 .form-group input,
 .form-group textarea {
     width: 48%;
-    padding: 10px;
+    padding: 2%;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -251,7 +251,7 @@ legend {
 
 button {
     width: 100%;
-    padding: 10px;
+    padding: 2%;
     background-color: #5cb85c;
     border: none;
     color: white;
@@ -266,7 +266,7 @@ button:hover {
 .contact-info {
     background-color: #464646;
     color: white;
-    padding: 20px;
+    padding: 2%;
     flex: 1.5;
     display: flex;
     flex-direction: column;
@@ -275,11 +275,11 @@ button:hover {
 
 }
 .head-info {
-margin-bottom: 20px;
+margin-bottom: 2%;
 }
 p.frase{
     text-indent: 0%;
-    margin: 10px;
+    margin: 2.7%;
 }
 
 .info-group {
@@ -288,7 +288,7 @@ p.frase{
 }
 .info-group a {
     
-    margin: 10px 0;
+    margin: 2.5%;
     text-decoration: none;
     color: white;
     display: flex;
@@ -298,22 +298,93 @@ p.frase{
 .info-group img {
     width: 30px;
     height: 30px;
-    margin-right: 10px;
+    margin-right: 2%;
     border-radius: 3px;
 }
 
 .message {
     position: fixed;
-    top: 20px;
-    right: 20px;
-    background-color: #5cb85c;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(7, 139, 2, 0.671); 
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border: solid;
+    border-color: rgb(7, 139, 2);
+    border-width: 1px;
     display: none;
+    z-index: 1000;
 }
 
 .message.show {
     display: block;
+}
+@media (max-width: 768px){
+    .aprendiendo{
+        width: 100%;
+    }
+    .contact-container{
+        width: 100%;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .contact-info{
+        width: 100%;
+    }
+    .contenedor{
+        width: 100%;
+    }
+    .contenedorFoto{
+        width: 100%;
+    }
+    .descripcionProyecto{
+        width: 100%;
+    }
+    .educacion{
+        width: 100%;
+    }
+    .experiencia{
+        width: 100%;
+    }
+    .form-group{
+        width: 100%;
+    }
+    .head-info{
+        width: 100%;
+    }
+    .imagenInicial{
+        width: 100%;
+    }
+    .imagenProyecto{
+        width: 100%;
+    }
+    .info-group{
+        width: 100%;
+    }
+    .java{
+        width: 100%;
+    }
+    .message{
+        width: 100%;
+    }
+    .message.show{
+        width: 100%;
+    }
+    .presentacion{
+        width: 100%;
+    }
+    .proyectos{
+        width: 100%;
+    }
+    .sobreMi{
+        width: 100%;
+    }
+    .tecnologias{
+        width: 100%;
+    }
+ 
 }

@@ -14,7 +14,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
             document.getElementById('message').classList.add('show');
             setTimeout(() => {
                 document.getElementById('message').classList.remove('show');
-            }, 3000);
+            }, 2000);
             this.reset();
         } else {
             response.json().then(data => {
