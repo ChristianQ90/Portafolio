@@ -1,0 +1,319 @@
+body{
+    background: rgb(7,137,179);
+    background: radial-gradient(circle, rgba(7,137,179,1) 0%, rgba(0,0,11,1) 100%);
+    
+}
+h1{
+    color: rgba(0, 0, 0, 0.75);
+    text-align:  center;
+    font-family: sans-serif;
+    
+}
+p{
+    color: white;
+    text-indent: 15px; 
+    margin: 15px; 
+    font-family: sans-serif;
+    font-size: 16;
+
+}
+h2, p {
+    margin: 5px;
+    color: white;
+    font-family:sans-serif;
+    
+}
+.imagenInicial img {
+    width: 100%;
+    height: auto;
+}
+.imagenInicial {
+    position: relative;
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+.presentacion{
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(68, 172, 158, 0.671); 
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.contenedor{
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 1120px;
+    height: 250px;
+    
+}
+.contenedorFoto{
+    border-style: solid;
+    border-color:white;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-top: 10px;
+    float: left;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 10px rgb(46, 240, 247);
+}
+.sobreMi{
+    border-style: solid;
+    border-color:white;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px ;
+    float: right;
+    width: 900px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(46, 240, 247);
+}
+
+.educacion{
+    float: left;
+    width: 30%;
+    height: 600px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 20%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(46, 240, 247);
+
+}
+.experiencia{
+    float: left;
+    width: 30%;
+    height: 600px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(46, 240, 247);
+    
+}
+
+.tecnologias{
+    float: left;
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+    text-align: center;
+}
+.aprendiendo{
+    float: left;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+p.textoOscuro{
+    color: rgba(0, 0, 0, 0.8);
+    text-indent: 20px; 
+    font-size: 16px;
+    margin: 15px; 
+}
+.tecnologias img {
+    border-radius: 10px;
+    margin: 3px;
+    transition: transform 0.8s; 
+}
+.tecnologias img:hover {
+    animation: shake 0.6s;
+    animation-iteration-count: inherit;
+}
+.aprendiendo img {
+    border-radius: 10px;
+    margin: 3px;
+    transition: transform 0.8s; 
+}
+.aprendiendo img:hover {
+    animation: shake 0.6s;
+    animation-iteration-count: inherit;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.proyectos{
+    float: left;
+    width: 100%;
+    height: 800px;
+    margin-top: 40px;
+    text-align: center;
+}
+.imagenProyecto{
+    width: 260px;
+    height: 500px;
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 10px;
+    cursor: pointer;
+    float: left;
+}
+.descripcionProyecto{
+    width: 260px;
+    height: 130px;
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 10px;
+    float: left;
+    
+}
+.java{
+    margin-right: 100%;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: inline-block;
+    background-color: transparent;
+    color: orange;
+    border: solid;
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+    border-color: orange;
+    border-width: 1px;
+    text-align: center;
+}
+.java:hover {
+    background-color: orange ;
+    color: white;
+    transition: background-color 0.8s; 
+}
+
+
+.contact-container {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(46, 240, 247);
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    padding: 20px;
+    flex: 2;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+legend {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    width: 100%;
+    height: 200px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.contact-info {
+    background-color: #464646;
+    color: white;
+    padding: 20px;
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+.head-info {
+margin-bottom: 20px;
+}
+p.frase{
+    text-indent: 0%;
+    margin: 10px;
+}
+
+.info-group {
+    display: flex;
+    flex-direction: column;
+}
+.info-group a {
+    
+    margin: 10px 0;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.info-group img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.message.show {
+    display: block;
+}
